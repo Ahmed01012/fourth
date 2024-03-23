@@ -14,9 +14,6 @@ body{
     .con{
         flex-direction:columen;
     }
-    .box1{
-        margin-bottom:50px;
-    }
 }
 .box1{
     position: relative;
@@ -24,6 +21,11 @@ body{
     height: 400px;
     transition: 0.5s all ease;
 } 
+@mediascreen (max-width:767px){
+    .box1{
+        margin-bottom:50px;
+    }
+}
 .box1:hover{
     transform:perspective(20px) rotateX(2deg) translateY(-50px) ;
 }
