@@ -5,6 +5,16 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.con{
+    display:grid;
+    grid-template-columen:repeat(auto-fill, minmax(300px , 1fr));
+    gab:40px;
+}
+@mediascreen (max-width:767px){
+    .con{
+        flex-direction:columen;
+    }
+}
 .box1{
     position: relative;
     width: 300px;
